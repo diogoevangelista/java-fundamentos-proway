@@ -28,16 +28,16 @@ public class TrabalhoComVariavel {
 		
 		System.out.println("numero inteiro com long -> " + numeroInteiroGrande);
 		
-		double precoProduto = 9.43;
+		//double precoProduto = 9.43;
 		
-		boolean alunoMatriculado = true;
-		boolean clienteBloqueado = false;
+		//boolean alunoMatriculado = true;
+		//boolean clienteBloqueado = false;
 		
-		char turmaAluna1 = 'A';
-		char tipoCliente = '2';
-		char simbolo = '@';
+		//char turmaAluna1 = 'A';
+		//char tipoCliente = '2';
+		//char simbolo = '@';
 		
-		String nomePessoa = "Diogo";
+		//String nomePessoa = "Diogo";
 		
 		long populacaoUberlandia = 650000;
 		System.out.println(populacaoUberlandia);

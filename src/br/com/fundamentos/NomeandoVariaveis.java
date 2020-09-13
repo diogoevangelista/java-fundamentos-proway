@@ -4,25 +4,25 @@ public class NomeandoVariaveis {
 	
 	public static void main(String[] args) {
 		//valido separado por underline _
-		String variavel_separada_por_underline;
+		//String variavel_separada_por_underline;
 		
 		//padrão camelcase
-		String variavelSeparadaPorUnderline;
+		//String variavelSeparadaPorUnderline;
 		
 		//valido porem estranho
-		int _numero;
+		//int _numero;
 		
-		System.out.println(_numero);
+		//System.out.println(_numero);
 		
 		//válido porem mais estranho ainda! parece PHP
-		int $outroNumero;
+		//int $outroNumero;
 		
-		System.out.println($outroNumero);
+		//System.out.println($outroNumero);
 		
 		//não pode iniciar com caracteres especiais
-		String 1um;
+		//String 1um;
 		
-		int @arroba;
+		//int @arroba;
 	}
 
 }
