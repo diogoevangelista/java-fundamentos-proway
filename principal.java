@@ -1,6 +1,6 @@
 public class principal{
 
-    public static void main (string[] args) {
-        system.out.println("aprendendo git")
+    public static void main (String[] args) {
+        System.out.println("aprendendo git")
     }
 }
