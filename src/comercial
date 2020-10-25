@@ -234,3 +234,10 @@ from venda v
 inner join fornecedor f on v.id_fornecedor = f.id
 inner join vendedor vend on v.id_vendedor = vend.id
 inner join cliente c on v.id_cliente = c.id;
+
+# calcula o valor médio referente a sua coluna - avg()
+
+select format (avg(campo_comercio), 2) 'avarage price'
+	from nome_tabela;
+    
+select format (avg(p.valor), 2)as 'media preco' from produto p;
