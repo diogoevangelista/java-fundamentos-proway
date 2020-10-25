@@ -244,3 +244,16 @@ select format (avg(p.valor), 2)as 'media preco' from produto p;
 
 # para contar registros - count ()
 select count(*) from nome_tabela;
+
+# verificar quantidade - having count()
+select campo1, count(campo2)
+		from nome_tabela 
+	having count(campo2) > 1;
+
+select format(v.valor, 2) as 'valor', v.* from venda v;
+
+select v.codigo_venda, v.vendedor, v.cliente
+from venda v
+having v.valor > 9000;
+ORDER by 4 asc
+;
