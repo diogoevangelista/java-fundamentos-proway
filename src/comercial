@@ -241,3 +241,6 @@ select format (avg(campo_comercio), 2) 'avarage price'
 	from nome_tabela;
     
 select format (avg(p.valor), 2)as 'media preco' from produto p;
+
+# para contar registros - count ()
+select count(*) from nome_tabela;
