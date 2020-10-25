@@ -271,3 +271,10 @@ from venda;
 -- maior = 25141.02
 
 select * from venda order by valor asc;
+
+# somar campos - sum()
+select sum(campo1) from nome_tabela;
+
+select * from produto;
+
+select (format (sum(valor), 2)) as 'total valor de produtos' from produto;
