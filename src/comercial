@@ -219,3 +219,18 @@ insert into item_venda values(39,16,4,'1513.77',4,0);
 insert into item_venda values(40,17,5,'2325.32',5,0);
 insert into item_venda values(41,18,5,'2325.32',6,0);
 ## Fim popula tabela  Itens Vendas
+
+select * from produto;
+
+select * from fornecedor where id = 1; 
+
+select p.descricao, p.valor, p.id_fornecedor, f.nome
+from produto p inner join fornecedor f on p.id_fornecedor = f.id;
+
+use comercial;
+select c.nome as 'Nome Cliente', f.nome as 'Nome Fornecedor', vend.nome as 'nome vendedor', v.valor, concat('R$ ', v.total) as total_venda
+
+from venda v
+inner join fornecedor f on v.id_fornecedor = f.id
+inner join vendedor vend on v.id_vendedor = vend.id
+inner join cliente c on v.id_cliente = c.id;
